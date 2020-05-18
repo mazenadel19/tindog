@@ -1,0 +1,180 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Slab',
+    serif;
+}
+
+/* Headings */
+.big-heading {
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* Headings */
+
+/* containers */
+.container-fluid {
+    padding: 7% 15%;
+    overflow: hidden;
+}
+/* containers */
+
+/* sections */
+
+/* sections */
+.colored-section{
+    background-color: #ff4c68;
+        color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+/* start navbar */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 2px 2px 5px #555, -2px -2px 5px #555;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* end navbar */
+
+/* start  title */
+
+#features {
+    position: relative;
+    /* bottom: 150px; */
+}
+
+#features h5 {
+    font-weight: 400;
+}
+
+#features p {
+    color: #8f8f8f;
+}
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    overflow: hidden;
+    text-align: left;
+
+}
+
+#imgIphone {
+    width: 60%;
+    margin-top: 40px;
+    transform: rotateZ(20deg);
+    position: absolute;
+    right: 20%;
+}
+
+@media screen and (max-width: 1199px) {
+    #imgIphone {
+        transform: rotateZ(0);
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/* end  title */
+
+/* Features */
+
+.card {
+    
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.card i {
+    color: #ef8172;
+}
+
+.card i:hover {
+    color: #ff4c68;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.pricing-card-title {
+        font-size: 3rem;
+        line-height: 1.5;
+}
+
+#features {
+    position: relative;
+}
+
+#features h5 {
+    font-weight: 400;
+}
+
+#features p {
+    color: #8f8f8f;
+}
+
+/* end features */
+
+/*Start Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+        font-size: 3rem;
+        line-height: 1.5;
+}
+
+/*End Testimonials*/
+
+/*Start Press */
+#press {
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+/*End Press */
+
+/* start footer */
+
+#footer p {
+    color: rgba(128, 128, 128, 0.562);
+    margin-top: 20px;
+}
+
+/* end  footer*/
